@@ -101,3 +101,6 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 INSERT INTO segusuario (idUsuario,nmUsuario,deSenha,deEmail,dtCadastro)
 VALUES (1,'Um','um','um@mail.com','2025-05-19');
+
+INSERT INTO seggranttype (idGrantType,deGrantType)
+VALUES (1,' Authorization Code');
