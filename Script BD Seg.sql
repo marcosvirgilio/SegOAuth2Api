@@ -95,7 +95,9 @@ CREATE TABLE IF NOT EXISTS `seg`.`segAcesso` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+INSERT INTO segusuario (idUsuario,nmUsuario,deSenha,deEmail,dtCadastro)
+VALUES (1,'Um','um','um@mail.com','2025-05-19');
